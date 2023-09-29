@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+body{
+    background-image: url(https://github.com/RenzSaturNMC/grid-web-layout/blob/main/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.grid-item{
+   background-color: gray;
+   border: 1px solid black;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.grid-container div{
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 10px 10px; 
+}
