@@ -33,7 +33,7 @@ body{
    text-align: center;
    box-shadow: 10px 10px;
    grid-column: 1/ span 3;
-   grid-row: 1/ span 1;
+   grid-row: 1/ span 2;
    float: left;
 }
 
