@@ -29,9 +29,9 @@ body{
    font-size: 20px;
    text-align: center;
    grid-row-start: 1;
-   grid-row-end: 1;
+   grid-row-end: 2;
    grid-column-start: 1;
-   grid-column-end: 1;
+   grid-column-end: 2;
    box-shadow: 10px 10px;
 }
 
@@ -61,4 +61,3 @@ body{
     text-align: center;
     box-shadow: 10px 10px;
  }
-
