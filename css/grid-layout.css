@@ -1,5 +1,6 @@
 h1{
     color: white;
+    opacity: none;
 }
 
 .grid{
@@ -26,7 +27,7 @@ body{
    border: 1px solid black;
    padding: 20px;
    font-size: 20px;
-   opacity: 1.0;
+   opacity: 1;
    text-align: center;
    grid-row-start: 1;
    grid-row-end: 2;
@@ -41,7 +42,7 @@ body{
    padding: 20px;
    font-size: 20px;
    text-align: center;
-   opacity: 1.0;
+   opacity: 1;
    box-shadow: 10px 10px;
 }
 
@@ -51,7 +52,7 @@ body{
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    opacity: 1.0;
+    opacity: 1;
     box-shadow: 10px 10px;
  }
 
@@ -62,7 +63,7 @@ body{
     font-size: 20px;
     text-align: center;
     box-shadow: 10px 10px;
-    opacity: 1.0;
+    opacity: 1;
     grid-column-start: 1;
     grid-column-end: 5;
  }
