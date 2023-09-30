@@ -32,6 +32,7 @@ body{
    grid-row-end: 3;
    grid-column-start: 1;
    grid-column-end: 3;
+   box-shadow: 10px 10px;
 }
 
 .Item2{
@@ -40,8 +41,8 @@ body{
    padding: 20px;
    font-size: 20px;
    text-align: center;
+   box-shadow: 10px 10px;
 }
-
 
 .Item3{
     background-color: purple;
@@ -49,16 +50,15 @@ body{
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    box-shadow: 10px 10px;
  }
 
- 
 .Item4{
     background-color: blue;
     border: 1px solid black;
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    grid-row-start: 1;
-    grid-column-end: 3;
+    box-shadow: 10px 10px;
  }
 
