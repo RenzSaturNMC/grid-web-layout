@@ -29,11 +29,14 @@ body{
    border: 1px solid black;
    padding: 20px;
    font-size: 20px;
-   opacity: 1;
+   opacity: none;
    text-align: center;
    grid-column-start: 1;
-   grid-column-end: 3;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 3;
    box-shadow: 10px 10px;
+   float: left;
 }
 
 .Item2{
@@ -42,8 +45,9 @@ body{
    padding: 20px;
    font-size: 20px;
    text-align: center;
-   opacity: 1;
+   opacity: none;
    box-shadow: 10px 10px;
+   float: right;
 }
 
 .Item3{
@@ -52,18 +56,20 @@ body{
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    opacity: 1;
+    opacity: none;
     box-shadow: 10px 10px;
+    float: right;
+    clear: right;
  }
 
 .Item4{
-    background-color: darkblue;
+    background-color: darkred;
     border: 1px solid black;
     padding: 20px;
     font-size: 20px;
     text-align: center;
     box-shadow: 10px 10px;
-    opacity: 1;
+    opacity: none;
     grid-column-start: 1;
     grid-column-end: 5;
  }
