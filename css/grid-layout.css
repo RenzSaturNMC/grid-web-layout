@@ -70,4 +70,6 @@ body{
     text-align: center;
     box-shadow: 10px 10px;
     opacity: none;
+    grid-column-start: 1;
+    grid-column-end: 5;
  }
