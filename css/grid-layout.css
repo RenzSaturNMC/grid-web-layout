@@ -7,6 +7,8 @@ h1{
     display: grid;
     border: 10px solid black;
     padding: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     font-size: 30px;
     text-align: center;
     box-shadow: 10px 10px; 
@@ -30,8 +32,8 @@ body{
    opacity: none;
    text-align: center;
    box-shadow: 10px 10px;
-   grid-template-columns: 200px;
-   grid-template-rows: 100px;
+   grid-column: 1/ span 1;
+   grid-row: 1/ span 2;
    float: left;
 }
 
@@ -43,8 +45,6 @@ body{
    text-align: center;
    opacity: none;
    box-shadow: 10px 10px;
-   grid-template-columns: 200px;
-   grid-template-rows: 100px;
    float: right;
 }
 
