@@ -1,5 +1,5 @@
-head{
-    color: azure;
+h1{
+    color: white;
 }
 .grid{
     display: grid;
@@ -20,7 +20,6 @@ body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/005/266/448/non_2x/retro-futuristic-background-free-vector.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    opacity: 50%;
 }
 
 .Item1{
@@ -29,6 +28,10 @@ body{
    padding: 20px;
    font-size: 20px;
    text-align: center;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   grid-column-start: 1;
+   grid-column-end: 3;
 }
 
 .Item2{
