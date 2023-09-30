@@ -1,11 +1,11 @@
 h1{
     color: white;
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-color: gray;
     border: 1px solid black;
     padding: 20px;
     font-size: 20px;
@@ -56,11 +56,13 @@ body{
  }
 
 .Item4{
-    background-color: blue;
+    background-color: lightblue;
     border: 1px solid black;
     padding: 20px;
     font-size: 20px;
     text-align: center;
     box-shadow: 10px 10px;
-    opacity: 1,0;
+    opacity: 1.0;
+    grid-column-start: 1;
+    grid-column-end: 5;
  }
