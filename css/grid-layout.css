@@ -20,7 +20,7 @@ body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/005/266/448/non_2x/retro-futuristic-background-free-vector.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    opacity: 50%;
+    opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -32,7 +32,7 @@ body{
    opacity: none;
    text-align: center;
    grid-column-start: 1;
-   grid-column-end: 4;
+   grid-column-end: 5;
    grid-row-start: 1;
    grid-row-end: 3;
    box-shadow: 10px 10px;
@@ -59,7 +59,6 @@ body{
     opacity: none;
     box-shadow: 10px 10px;
     float: right;
-    clear: right;
  }
 
 .Item4{
