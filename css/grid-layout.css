@@ -32,7 +32,7 @@ body{
    opacity: none;
    text-align: center;
    grid-column-start: 1;
-   grid-column-end: 3;
+   grid-column-end: 2;
    grid-row-start: 1;
    grid-row-end: 2;
    box-shadow: 10px 10px;
@@ -46,8 +46,8 @@ body{
    font-size: 20px;
    text-align: center;
    opacity: none;
-   grid-column-start: 1;
-   grid-column-end: 3;
+   grid-column-start: 3;
+   grid-column-end: 5;
    grid-row-start: 1;
    grid-row-end: 2;
    box-shadow: 10px 10px;
@@ -62,10 +62,10 @@ body{
     text-align: center;
     opacity: none;
     box-shadow: 10px 10px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
     float: right;
     clear: right
  }
