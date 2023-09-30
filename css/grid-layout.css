@@ -5,9 +5,6 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-}
-
-.grid{
     background-color: gray;
     border: 1px solid black;
     padding: 20px;
@@ -25,7 +22,7 @@ body{
 }
 
 .Item1{
-   background-color: gray;
+   background-color: yellowgreen;
    border: 1px solid black;
    padding: 20px;
    font-size: 20px;
