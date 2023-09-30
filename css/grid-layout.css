@@ -5,8 +5,6 @@ h1{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     border: 10px solid black;
     padding: 20px;
     font-size: 30px;
@@ -31,11 +29,9 @@ body{
    font-size: 20px;
    opacity: none;
    text-align: center;
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 1;
-   grid-row-end: 2;
    box-shadow: 10px 10px;
+   grid-template-columns: 200px;
+   grid-template-rows: 100px;
    float: left;
 }
 
@@ -46,11 +42,9 @@ body{
    font-size: 20px;
    text-align: center;
    opacity: none;
-   grid-column-start: 3;
-   grid-column-end: 5;
-   grid-row-start: 1;
-   grid-row-end: 2;
    box-shadow: 10px 10px;
+   grid-template-columns: 200px;
+   grid-template-rows: 100px;
    float: right;
 }
 
@@ -62,10 +56,6 @@ body{
     text-align: center;
     opacity: none;
     box-shadow: 10px 10px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
     float: right;
     clear: right
  }
