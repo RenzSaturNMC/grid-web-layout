@@ -48,8 +48,6 @@ body{
    opacity: none;
    box-shadow: 10px 10px;
    float: right;
-   grid-column-start: 3;
-   grid-column-end: 5;
 }
 
 .Item3{
@@ -62,8 +60,6 @@ body{
     box-shadow: 10px 10px;
     float: right;
     clear: right;
-    grid-column-start: 3;
-    grid-column-end: 5;
  }
 
 .Item4{
@@ -74,6 +70,4 @@ body{
     text-align: center;
     box-shadow: 10px 10px;
     opacity: none;
-    grid-column-start: 1;
-    grid-column-end: 5;
  }
