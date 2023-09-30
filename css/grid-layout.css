@@ -31,10 +31,8 @@ body{
    font-size: 20px;
    opacity: 1;
    text-align: center;
-   grid-row-start: 1;
-   grid-row-end: 2;
    grid-column-start: 1;
-   grid-column-end: 2;
+   grid-column-end: 3;
    box-shadow: 10px 10px;
 }
 
