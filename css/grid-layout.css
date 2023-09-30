@@ -22,6 +22,10 @@ body{
     background-size: auto;
 }
 
+background-img{
+    opacity: 60%;
+}
+
 .Item1{
    background-color: gray;
    border: 1px solid black;
